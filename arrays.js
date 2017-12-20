@@ -23,6 +23,6 @@ var accessElementInArray = (arrayArgument, indexNumber) => {
 }
 
 var destructivelyRemoveElementFromBeginningOfArray = (arrayArgument) => {
-  arrayArgument.shift()
-  return arrayArgument
+  return arrayArgument.shift()
+//  return arrayArgument
 }
