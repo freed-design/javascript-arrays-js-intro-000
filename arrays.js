@@ -32,7 +32,12 @@ function removeElementFromBeginningOfArray(arrayArgument) {
   return arrayArgument
 }
 
-var destructivelyRemoveElementFromEndOfArray = (arrayArgument, element) => {
+var destructivelyRemoveElementFromEndOfArray = (arrayArgument) => {
   arrayArgument.pop()
+  return arrayArgument
+}
+
+var removeElementFromEndOfArray = (arrayArgument) => {
+  arrayArgument = arrayArgument.slice(0, arrayArgument.length - 1)
   return arrayArgument
 }
