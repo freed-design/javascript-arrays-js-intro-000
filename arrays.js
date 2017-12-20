@@ -8,3 +8,12 @@ var destructivelyAddElementToBeginningOfArray = (arrayArgument, element) => {
   arrayArgument.unshift(element)
   return arrayArgument
 }
+
+function addElementToEndOfArray(arrayArgument, element) {
+  return [...arrayArgument, element]
+}
+
+function destructivelyAddElementToEndOfArray(arrayArgument, element) {
+  arrayArgument.push(element)
+  return arrayArgument
+}
