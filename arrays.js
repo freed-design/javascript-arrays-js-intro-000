@@ -28,6 +28,6 @@ var destructivelyRemoveElementFromBeginningOfArray = (arrayArgument) => {
 }
 
 function removeElementFromBeginningOfArray(arrayArgument) {
-  internalArrayArgument = arrayArgument.slice(1)
+  arrayArgument = arrayArgument.slice(1)
   return arrayArgument
 }
