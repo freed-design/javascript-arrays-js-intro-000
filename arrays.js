@@ -31,3 +31,8 @@ function removeElementFromBeginningOfArray(arrayArgument) {
   arrayArgument = arrayArgument.slice(1)
   return arrayArgument
 }
+
+var destructivelyRemoveElementFromEndOfArray = (arrayArgument, element) => {
+  arrayArgument.pop()
+  return arrayArgument
+}
