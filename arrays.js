@@ -26,3 +26,8 @@ var destructivelyRemoveElementFromBeginningOfArray = (arrayArgument) => {
   arrayArgument.shift()
   return arrayArgument
 }
+
+function removeElementFromBeginningOfArray(arrayArgument) {
+  arrayArgument.slice(1)
+  return arrayArgument
+}
