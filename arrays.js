@@ -17,3 +17,7 @@ function destructivelyAddElementToEndOfArray(arrayArgument, element) {
   arrayArgument.push(element)
   return arrayArgument
 }
+
+var accessElementInArray = (arrayArgument, indexNumber) => {
+  return arrayArgument[indexNumber]
+}
